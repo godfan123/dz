@@ -1,0 +1,15 @@
+.header{height:40px;background-color:red;padding-left:65px;padding-right:64px;}
+.header .city{width:80px;height:40px;position:absolute;left:0;top:0;text-align: center}
+.header input{
+    border-radius:10px;width:100%;height:30px;background-color: #fff;border:none;padding-left:15px;margin-top:4px;
+     }
+.header .user{width:40px;height:40px;position:absolute;right:0;top:0}
+
+.header img{width:32px;height:32px;margin-top:3px}
+
+.city p{color: #fff;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -9px;
+    left: 13px;}
+.city .down{margin-top:2px}
