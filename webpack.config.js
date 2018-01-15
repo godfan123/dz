@@ -71,12 +71,12 @@ module.exports = {
     devServer: {
 
         inline: true,//实时刷新
-        port:3000,
+      
         proxy: {
 
             // 将 `/api` 开头的 http 请求，都代理到 `localhost:3000` 上，由 koa 提供 mock 数据
             '/api': {
-                target: 'http://localhost',
+                target: 'http://localhost:3000',
                 changeOrigin: true,
                 secure: false
             }
